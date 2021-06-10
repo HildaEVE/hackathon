@@ -1,0 +1,139 @@
+body {
+    background-image: linear-gradient(rgb(7, 26, 7),rgb(12, 238, 12));
+}
+img {
+    display: block; 
+    border: 1px solid #ddd; 
+    border-radius: 4px; 
+    padding:10px;
+    margin-left:auto; 
+    margin-right:auto; 
+     
+}
+h1{
+    margin-top: 20px; 
+    text-align: center;
+    /* margin-left: 90px; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+}
+h2{
+    text-align: center;
+    /* margin-left: 100px; */
+    font-size: 30px;
+    /* color: white !important; */
+    
+}
+.three> #second{
+    margin-bottom: 20px;
+    text-align: center;
+}
+.button {
+    border: none;
+    color: ivory;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.button1 {background-color: rgb(10, 255, 10);}
+.select-selected::after{
+    position: absolute;
+    content: "";
+    top: 14px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-color: #fff transparent transparent transparent;
+}
+.one{
+    width: 40%;
+    margin: auto;
+    height: 150vh;
+    
+}
+/* .three{
+    margin-top: 40px;
+}   */
+.two{
+    margin-top: 20px;
+}
+.two>form{
+    display: flex;
+    flex-direction: column;
+    background-color:whitesmoke;
+    width: 400px;
+    padding: 20px 50px 50px 50px;
+}
+#checkboxArea{
+    display: flex;
+    flex-direction: row; 
+
+}
+.two>form>label, #checkboxArea>label{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#checkboxArea>label{
+    margin-right: 20px;
+    size: 20px;
+}
+.inputX{
+    border: none;
+    border-bottom: 1px solid gray;
+    height: 25PX;
+    padding: 20px;
+}
+.inputX:focus{
+    border: none;
+    /* border-bottom: 2px solid rgb(10, 255, 10); */
+
+}
+.two>form>.button{
+    margin-top: 20px;
+}
+.four{
+    /* margin-top: 20px;
+    margin-left: 5em;
+    padding-right: 20px;
+    width: 50px; */
+    margin-top: 20px;
+    display: inline-block;
+    /* flex-wrap: wrap; */
+}
+.first{
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+.three>p{
+color: white;
+font-size: 20px;
+
+}
+.two>button{
+align-items: end;
+width: 100px;
+height: 50px;
+}
+.five{
+    margin-top: 20px;
+    text-align: center;
+}
+.five>a{
+    color: white;
+
+}
+.six{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+.six>button{
+    align-items: end;
+    width: 100px;
+    height: 50px;
+}
